@@ -1,0 +1,79 @@
+# Compilados Java
+*.class
+
+# Logs
+*.log
+logs/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# STS (Spring Tool Suite)
+.springBeans
+.apt_generated/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Archivos de configuración sensibles
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# Reportes
+surefire-reports/
+failsafe-reports/
+
+# Cobertura de código
+coverage/
+jacoco.exec
+/site/
+
+# Archivos generados
+generated-sources/
+generated-test-sources/
